@@ -1,0 +1,18 @@
+version: 1
+labels:
+- label: 'proposal'
+  title: '(\s|^)(?i)(proposal|Proposal|PROPOSAL)(?-i)(\s|.|$)'
+- label: 'final_submission'
+  title: '(\s|^)(?i)(final submission|Final Submission|Final submission|FINAL SUBMISSION)(?-i)(\s|.|$)'
+- label: 'presentation'
+  body: 'Category(\s*)(Presentation|presentation|PRESENTATION)'
+- label: 'demo'
+  body: 'Category(\s*)(Demo|demo|DEMO)'
+- label: 'course_automation'
+  body: 'Category(\s*)(Course automation|course automation|COURSE AUTOMATION)'
+- label: 'essay'
+  body: 'Category(\s*)(Essay|essay|ESSAY)'
+- label: 'executable_tutorial'
+  body: 'Category(\s*)(Executable tutorial|executable tutorial|Executable Tutorial|EXECUTABLE TUTORIAL)'
+- label: 'feedback'
+  body: 'Category(\s*)(Feedback|feedback|FEEDBACK)'
